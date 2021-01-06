@@ -348,7 +348,7 @@ header {
 
 .single-project-title {
   padding: 0.5em 0;
-  font-size: 1.7em;
+  font-size: 1.5em;
   letter-spacing: 0.15em;
   color: var(--dark);
   text-align: center;
@@ -413,7 +413,7 @@ header {
     flex-wrap: wrap;
   }
   .single-project {
-    flex: 0 0 calc(50% - 2em);
+    flex: 0 0 calc(33.33% - 1em);
   }
 }
 /* for larger screen size */
