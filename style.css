@@ -364,18 +364,33 @@ header {
   border: 1px solid var(--sectionGray);
 }
 
+.pro-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.project-image {
+  margin-bottom: auto;
+}
+
 .buttons {
   text-align: center;
-  padding: 2em 0;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
 }
 
 .btn {
   border: 2px solid var(--dark);
-  border-radius: 1.5em;
-  padding: 0.5em 1em;
-  margin: 0.5em 1em;
+  border-radius: 1em;
+  padding: 0.25em 0.5em;
+  margin: 0.25em 0.5em;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-transform: capitalize;
   transition: all 1s linear;
   display: inline-block;
