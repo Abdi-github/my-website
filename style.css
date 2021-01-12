@@ -149,8 +149,8 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
     url(images/banner.jpg);
   background-size: cover;
-  /* background-position: center;
-  background-repeat: no-repeat;
+  background-position: center;
+  /*background-repeat: no-repeat;
   background-attachment: fixed; */
   flex: 1 0 auto;
 }
